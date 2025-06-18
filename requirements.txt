@@ -6,3 +6,5 @@ google-auth-oauthlib
 google-cloud-storage
 google-genai
 requests
+streamlit
+python-dotenv
