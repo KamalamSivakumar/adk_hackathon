@@ -6,4 +6,4 @@
 --> "personaliser_adk" --> the folder in which, "\__init__.py", agent.py are present. 
 
 --> Make sure to have the "credentials.json" file for the calendar_api.py file to work.  
---> Make sure to have the "GOOGLE_API_KEY" present inside "\personaliser_adk\.env"
+--> Make sure to have the "GOOGLE_API_KEY" present inside "\personaliser_adk\ .env"
