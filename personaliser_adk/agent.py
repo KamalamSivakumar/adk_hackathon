@@ -149,7 +149,7 @@ def schedule_event(
 
     try:
         print(event_details) #http://127.0.0.1:5000/schedule
-        response = requests.post("https://d49c-49-206-114-222.ngrok-free.app/schedule", json=event_details) #https://d49c-49-206-114-222.ngrok-free.app
+        response = requests.post("https://e04c-49-206-114-222.ngrok-free.app/schedule", json=event_details) #https://d49c-49-206-114-222.ngrok-free.app
         if response.status_code == 200:
             return f"Event scheduled: {description} on {date}"
         else:
