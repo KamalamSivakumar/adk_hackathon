@@ -11,7 +11,7 @@ import logging
 app = Flask(__name__)
 CORS(app)
 
-CORS(app, origins=["https://e04c-49-206-114-222.ngrok-free.app", "http://localhost:8501"])
+CORS(app, origins=["*"])
 
 @app.route("/schedule", methods=["POST"])
 def schedule_event():
