@@ -6,8 +6,12 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from google.auth.transport.requests import Request
 import os
+from flask_cors import CORS
 import logging
 app = Flask(__name__)
+CORS(app)
+
+CORS(app, origins=["https://wda4aomnetklxruscrc4nm.streamlit.app/", "http://localhost:8501"])
 
 @app.route("/schedule", methods=["POST"])
 def schedule_event():
